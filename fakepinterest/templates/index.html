@@ -13,5 +13,20 @@
     {%block content %}
     <h1>Welcome to FakePinterest</h1>
     {%endblock%}
+
+    {%block formulario%}
+    <form method="POST">
+    {{ form.csrf_token }}
+
+        {{form.email.label()}}
+        {{form.email()}}
+
+        {{form.senha.label()}}
+        {{form.senha()}}
+
+        {{form.botao_confirmacao()}}
+    </form>
+    {%endblock%}
+
 </body>
 </html>
