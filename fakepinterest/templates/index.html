@@ -15,6 +15,7 @@
     {%endblock%}
 
     {%block formulario%}
+    {% if form %}
     <form method="POST">
     {{ form.csrf_token }}
 
@@ -26,6 +27,7 @@
 
         {{form.botao_confirmacao()}}
     </form>
+    {% endif %}
     {%endblock%}
 
 </body>
