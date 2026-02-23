@@ -8,7 +8,7 @@ git clone https://github.com/ThiagoMAlves/fakepinterest.git
 cd fakepinterest
 
 Instale as dependências
-pip install -r requirements.txt
+<textarea> pip install -r requirements.txt </textarea>
 
 Execute a aplicação
 python main.py
