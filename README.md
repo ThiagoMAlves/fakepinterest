@@ -2,10 +2,10 @@ FakePinterest
 Um clone simplificado do Pinterest desenvolvido com Flask, SQLAlchemy, HTML, CSS e Bootstrap, com foco em aprendizado prático de desenvolvimento web fullstack com Python.
 Projeto em desenvolvimento local. 
 
-Como Rodar o Projeto Localmente:
-Clone o repositório
-git clone https://github.com/ThiagoMAlves/fakepinterest.git
-cd fakepinterest
+Como Rodar o Projeto Localmente: <br>
+Clone o repositório <br>
+git clone https://github.com/ThiagoMAlves/fakepinterest.git <br>
+cd fakepinterest 
 
 Instale as dependências <br>
 pip install -r requirements.txt
