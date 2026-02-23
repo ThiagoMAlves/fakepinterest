@@ -10,7 +10,7 @@ cd fakepinterest
 Instale as dependências <br>
 pip install -r requirements.txt
 
-Execute a aplicação
+Execute a aplicação <br>
 python main.py
 
 Sobre o Projeto
